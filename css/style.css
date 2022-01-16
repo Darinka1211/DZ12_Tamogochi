@@ -1,0 +1,46 @@
+body {
+    background-color: skyblue;
+    font-size: 16px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.btn {
+    /*width: 10%;*/    
+    text-align: center;
+     display: flex;
+    justify-content: center;
+
+}
+.avatar{
+
+    /*margin-top: 300px;*/
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    height: 100px;
+   
+
+}
+
+img {
+    height: 120px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+div {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+
