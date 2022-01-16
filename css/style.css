@@ -15,16 +15,8 @@ body {
     justify-content: center;
 
 }
-.avatar{
 
-    /*margin-top: 300px;*/
-    display: flex;
-    flex-direction: row;
-    width: 100px;
-    height: 100px;
-   
 
-}
 
 img {
     height: 120px;
@@ -32,15 +24,23 @@ img {
 
 .buttons {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    width: 50px;
 }
 
 
 
 
 div {
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+   
+}
+span {
+    display: flex;
+    flex-direction: row;
 }
 
 
